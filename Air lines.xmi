@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2023-11-02T12:17:25" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2023-11-03T08:35:37" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
@@ -34,6 +34,11 @@
      <XMI.extension xmi.extender="umbrello">
       <diagrams>
        <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="7XFGDU0vlgHq" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="AIRLINE RESERVATION" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="g06feAiefYDq" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
         <widgets/>
         <messages/>
         <associations/>
@@ -133,7 +138,7 @@
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams>
-       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Airline reservation" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="785" canvaswidth="1086" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="UJwiFkSLL1G4" documentation="" showscope="1" snapgrid="0" showatts="1" type="2">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="0" showstereotype="1" name="Airline reservation" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="731" canvaswidth="956" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="UJwiFkSLL1G4" documentation="" showscope="1" snapgrid="0" showatts="1" type="2">
         <widgets>
          <actorwidget width="79" showstereotype="1" x="-979" usesdiagramusefillcolor="0" y="-662" usesdiagramfillcolor="0" isinstance="0" localid="Y2YQ7LAyoCi8" fillcolor="#ffff00" height="79" linecolor="#ff0000" xmi.id="Fa8lU9Ya1e84" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
          <actorwidget width="51" showstereotype="1" x="-86" usesdiagramusefillcolor="0" y="-643" usesdiagramfillcolor="0" isinstance="0" localid="pgkNWB4wrfj8" fillcolor="#ffff00" height="51" linecolor="#ff0000" xmi.id="3euI0GUpGRhd" textcolor="#000000" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
@@ -198,7 +203,7 @@
            <endpoint endx="-640" endy="-35"/>
           </linepath>
          </assocwidget>
-         <assocwidget indexa="1" indexb="1" usesdiagramusefillcolor="235" widgetaid="TEXhA74uCbQC" usesdiagramfillcolor="254" fillcolor="none" linecolor="#ff0000" seqnum="" totalcounta="2" xmi.id="bhw44X6RIQaK" widgetbid="7exm4PqdA5dI" totalcountb="2" type="503" textcolor="none" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0">
+         <assocwidget indexa="1" indexb="1" usesdiagramusefillcolor="1" widgetaid="TEXhA74uCbQC" usesdiagramfillcolor="1" fillcolor="none" linecolor="#ff0000" seqnum="" totalcounta="2" xmi.id="bhw44X6RIQaK" widgetbid="7exm4PqdA5dI" totalcountb="2" type="503" textcolor="none" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0">
           <linepath layout="Polyline">
            <startpoint startx="-941" starty="-64"/>
            <endpoint endx="-599" endy="-206"/>
@@ -216,13 +221,18 @@
            <endpoint endx="-379" endy="-461"/>
           </linepath>
          </assocwidget>
-         <assocwidget indexa="1" indexb="1" usesdiagramusefillcolor="16" widgetaid="h8Y8SpJO9v43" usesdiagramfillcolor="0" fillcolor="#ffff00" linecolor="#ff0000" seqnum="" totalcounta="2" xmi.id="H5wbzxvEFtJr" widgetbid="LVBUYgwqtu20" totalcountb="2" type="502" textcolor="none" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0">
+         <assocwidget indexa="1" indexb="1" usesdiagramusefillcolor="1" widgetaid="h8Y8SpJO9v43" usesdiagramfillcolor="0" fillcolor="#ffff00" linecolor="#ff0000" seqnum="" totalcounta="2" xmi.id="H5wbzxvEFtJr" widgetbid="LVBUYgwqtu20" totalcountb="2" type="502" textcolor="none" usefillcolor="1" linewidth="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0">
           <linepath layout="Polyline">
            <startpoint startx="-504" starty="-471"/>
            <endpoint endx="-367" endy="-600"/>
           </linepath>
          </assocwidget>
         </associations>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="ONLINE VOTING SYSTEM" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="qGpJQZRYGKTf" documentation="" showscope="1" snapgrid="0" showatts="1" type="2">
+        <widgets/>
+        <messages/>
+        <associations/>
        </diagram>
       </diagrams>
      </XMI.extension>
@@ -240,13 +250,14 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="UJwiFkSLL1G4" uniqueid="g5m2d6fA4Ng8" documentation=""/>
+  <docsettings viewid="qGpJQZRYGKTf" uniqueid="qGpJQZRYGKTf" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="821" id="Component View"/>
     <listitem open="1" type="827" id="Deployment View"/>
     <listitem open="1" type="836" id="Entity Relationship Model"/>
     <listitem open="1" type="801" id="Logical View">
+     <listitem open="0" type="807" id="g06feAiefYDq" label="AIRLINE RESERVATION"/>
      <listitem open="0" type="807" id="7XFGDU0vlgHq" label="class diagram"/>
      <listitem open="0" type="830" id="Datatypes">
       <listitem open="1" type="829" id="6gXEMCnLTPjI"/>
@@ -272,6 +283,7 @@
      <listitem open="1" type="812" id="DkB7Xd83TDgO"/>
      <listitem open="1" type="812" id="LVBUYgwqtu20"/>
      <listitem open="1" type="812" id="h5C8HamR9gZq"/>
+     <listitem open="0" type="805" id="qGpJQZRYGKTf" label="ONLINE VOTING SYSTEM"/>
      <listitem open="1" type="812" id="yJfbyUp6wkFi"/>
      <listitem open="1" type="811" id="Fa8lU9Ya1e84"/>
      <listitem open="1" type="812" id="2V19wBhpYk7f"/>
